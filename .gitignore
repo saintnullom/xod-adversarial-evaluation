@@ -1,0 +1,25 @@
+.venv/
+__pycache__/
+*.py[cod]
+
+# Local configuration and credentials. Keep the public template only.
+.env
+.env.*
+!.env.example
+
+# Mutable local data and generated output.
+data/*.db
+data/*.db-*
+*.sqlite
+*.sqlite3
+logs/
+*.log
+coverage/
+frontend/node_modules/
+frontend/dist/
+
+# Editor and operating-system files.
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
